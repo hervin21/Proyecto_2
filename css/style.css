@@ -1,4 +1,3 @@
-/* styles.css */
 
 body {
     margin: 0;
@@ -15,7 +14,7 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Ajusta según el tamaño del logotipo */
+    height: 50px; 
 }
 
 .navbar ul {
@@ -32,10 +31,10 @@ header {
 .navbar a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #555; 
+    background-color: #0deca2; 
     color: white;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 51px; 
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -45,4 +44,69 @@ header {
     color: #fff; 
 }
 
+.banner {
+    width: 100%;
+    overflow: hidden; /* Para evitar que la imagen sobresalga */
+}
 
+.banner img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+.content-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px; /* Bordes redondeados*/
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 8px%
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 161, 145, 0.73);
+    text-align: center;
+    pointer-events: none;
+}
+.text-container {
+    flex: 2;
+    background-color: #f3f3f3;
+}
+
+.text-container h2 {
+    margin-top: 0;
+    color: 	#804197; /* Color del texto del título. Cambia a tu color deseado */
+    font-size: 42px; /* Tamaño del texto del título. Ajusta según tus necesidades */
+    font-weight: bold; /* Grosor del texto. Puedes ajustar según tus preferencias */
+}
+
+.text-container p {
+    color: #34495e; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0; 
+    text-align: justify;
+    max-width: 800px; /* Ajusta el ancho máximo del párrafo para hacerlo más estrecho */
+    padding: 10px; 
+}
