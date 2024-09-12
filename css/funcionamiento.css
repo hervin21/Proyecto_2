@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #b4a7d6 ;
     
 }
 header {
@@ -15,33 +16,6 @@ header {
 
 .logo img {
     height: 50px; 
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar li {
-    margin: 0 10px;
-}
-
-.navbar a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #02bdad; 
-    color: white;
-    text-decoration: none;
-    border-radius: 51px; 
-    font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar a:hover {
-    background-color: #777; 
-    color: #f3f3f3ff; 
 }
 
 .navbar2 ul  {
@@ -58,7 +32,7 @@ header {
 .navbar2 a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #804197; 
+    background-color: #b4a7d6 ; 
     color: white;
     text-decoration: none;
     border-radius: 51px; 
@@ -88,7 +62,7 @@ header {
     align-items: flex-start;
     padding: 20px;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     border-radius: 8px; /* Bordes redondeados*/
 }
 
@@ -109,10 +83,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: rgb(231, 231, 231);
     font-size: 64px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 161, 145, 0.73);
+    text-shadow: 2px 2px 4px #af00db;
     text-align: justify;
     pointer-events: none;
     
