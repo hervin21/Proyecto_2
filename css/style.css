@@ -32,7 +32,7 @@ header {
 .navbar a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0deca2; 
+    background-color: #02bdad; 
     color: white;
     text-decoration: none;
     border-radius: 51px; 
@@ -140,24 +140,42 @@ header {
     font-size: 42px; 
     font-weight: bold; 
     text-align: justify;
+    text-align: center;
 }
 
-.additional-section p, .final-section p {
+.additional-section p{
     color: #000000; /* Color del texto del párrafo */
     font-size: 18px; /* Tamaño del texto del párrafo */
     line-height: 1.6; /* Altura de línea del párrafo */
     margin: 0;
+    max-width: 800px;
+    padding: 10px; 
     text-align: justify;
+    
    
 }
 
 .additional-section li {
     color: #000000; 
     font-size: 18px;
-    line-height: 1.5; /* Altura de línea del párrafo */
+    line-height: 1.6; /* Altura de línea del párrafo */
     margin: 0;
     max-width: 800px;
     padding: 10px; 
+    text-align: justify;
+    
+}
+.final-section p {
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 18px; /* Tamaño del texto del párrafo */
+    line-height: 1.6; /* Altura de línea del párrafo */
+    margin: 0;
+    max-width: 800px;
+    padding: 10px; 
+    text-align: center;
+    
+    
+   
 }
 
 .image-container2 {
