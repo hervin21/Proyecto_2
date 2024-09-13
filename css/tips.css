@@ -203,5 +203,9 @@ header {
     bottom: 0;
     width: 100%;
     margin-top: 20px;
+    
+}
 
-
+.pie-de-pagina p {
+    margin: 0;
+    text-align: center;
