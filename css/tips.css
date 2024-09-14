@@ -131,7 +131,7 @@ header {
 
 .text-container h2 {
     margin-top: 0;
-    color: 	#804197;
+    color: 	#ede2f1;
     font-size: 42px;
     font-weight: bold;
     
@@ -145,6 +145,15 @@ header {
     text-align: justify;
     max-width: 800px;
     padding: 10px; 
+}
+.text-container li {
+    color: #000000; 
+    font-size: 18px;
+    line-height: 1.6; /* Altura de línea del párrafo */
+    margin: 0;
+    max-width: 800px;
+    padding: 10px; 
+    text-align: justify;
 }
 .separator {
     text-align: center;
@@ -166,9 +175,9 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
-.additional-section h2, .final-section h2 {
+.additional-section h2{
     margin-top: 0;
-    color: #804197; 
+    color: #ede2f1; 
     font-size: 42px; 
     font-weight: bold; 
     text-align: justify;
@@ -197,18 +206,7 @@ header {
     text-align: justify;
     
 }
-.final-section p {
-    color: #000000; /* Color del texto del párrafo */
-    font-size: 18px; /* Tamaño del texto del párrafo */
-    line-height: 1.6; /* Altura de línea del párrafo */
-    margin: 0;
-    max-width: 1010px;
-    padding: 20px; 
-    text-align: center;
-    
-    
-   
-}
+
 .image-container2 {
     display: flex; /* Usar flexbox para controlar el layout */
     justify-content: right; /* Alinear el contenido al final del contenedor (a la derecha) */
