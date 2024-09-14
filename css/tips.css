@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #a2c4c9 ;
+    background-color: #a2c4c9;
     
 }
 header {
@@ -18,21 +18,21 @@ header {
     height: 50px; 
 }
 
-.navbar3 ul  {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.navbar3 li {
+.navbar li {
     margin: 0 10px;
 }
 
-.navbar3 a {
+.navbar a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a2c4c9 ; 
+    background-color: #adb209; 
     color: white;
     text-decoration: none;
     border-radius: 51px; 
@@ -40,7 +40,34 @@ header {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navba3 a:hover {
+.navbar a:hover {
+    background-color: #777; 
+    color: #f3f3f3ff; 
+}
+
+.navbar2 ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar2 li {
+    margin: 0 10px;
+}
+
+.navbar2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #804197; 
+    color: white;
+    text-decoration: none;
+    border-radius: 51px; 
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar2 a:hover {
     background-color: #777; 
     color: #f3f3f3ff; 
 }
@@ -62,14 +89,14 @@ header {
     align-items: flex-start;
     padding: 20px;
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #95becdcf;
     border-radius: 8px; /* Bordes redondeados*/
 }
 
 .image-container {
     flex: 1;
     margin-right: 20px;
-    border-radius: 8px%
+    border-radius: 8px;
 }
 
 .image-container img {
@@ -80,21 +107,26 @@ header {
 }
 .overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(231, 231, 231);
-    font-size: 64px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #af00db;
-    text-align: justify;
-    pointer-events: none;
-    
-
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-20%, 120%); /* Centrado perfecto */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-size: 48px; /* Ajusté el tamaño para que sea proporcional */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px #FFFF00; /* Sombra de texto */
+    text-align: center; /* Centrado horizontal del texto */
+    pointer-events: none; /* El texto no interferirá con eventos del mouse */
+    font-family: 'Arial', sans-serif; /* Fuente más legible */
+    background-color: rgba(0, 0, 0, 0); /* Fondo azul claro traslúcido para resaltar el texto */
+    padding: 10px 20px; /* Espaciado interno para dar margen entre el texto y los bordes */
+    border-radius: 15px; /* Bordes redondeados para darle una apariencia más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Pequeña sombra para darle profundidad */
 }
+
 .text-container {
     flex: 2;
-    background-color: #f3f3f3;
+    background-color: #95becdaf;
+    
 }
 
 .text-container h2 {
@@ -129,14 +161,14 @@ header {
 .additional-section, .final-section {
     padding: 20px;
     margin: 20px;
-    background-color: #f3f3f3; 
+    background-color: #95becdbf; 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
 .additional-section h2, .final-section h2 {
     margin-top: 0;
-    color: #a2c4c9; 
+    color: #804197; 
     font-size: 42px; 
     font-weight: bold; 
     text-align: justify;
@@ -209,3 +241,4 @@ header {
 .pie-de-pagina p {
     margin: 0;
     text-align: center;
+}
